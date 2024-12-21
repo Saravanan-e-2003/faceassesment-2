@@ -6,6 +6,22 @@ body {
     padding: 0;
 }
 
+
+.cont-reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.register-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 4px 30px 4px #b030cd39;
+    width: 300px;
+}
+
 .container {
     width: 80%;
     max-width: 800px;
@@ -19,7 +35,7 @@ body {
 
 /* Navbar Styles */
 .navbar {
-    background-color: #ddd;
+    background-color: #ececec;
     padding: 10px 20px;
     box-shadow: 0 4px 8px rgba(111, 111, 111, 0.1);
 }
@@ -145,15 +161,16 @@ th {
 button {
     width: auto;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #b030cd;
     color: white;
-    border-radius: 4px;
+    /* border-radius: 10px; */
+    border-radius: 5px;
     margin-bottom: 20px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #83259b;
 }
 
 

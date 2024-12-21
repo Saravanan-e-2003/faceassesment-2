@@ -12,7 +12,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 4px 30px 4px #b030cd39;
     width: 300px;
 }
 
@@ -41,7 +41,7 @@ h2 {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #b030cd;
     color: white;
     border: none;
     border-radius: 4px;
@@ -50,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #b030cd;
 }
 
 .error-message {
